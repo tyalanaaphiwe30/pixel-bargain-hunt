@@ -73,74 +73,92 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --radius: 0.4rem;
+  --font-body: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-heading: "Arial Narrow", "Trebuchet MS", sans-serif;
+  --background: oklch(0.975 0.012 145);
+  --foreground: oklch(0.19 0.025 166);
+  --card: oklch(0.995 0.004 145);
+  --card-foreground: oklch(0.19 0.025 166);
+  --popover: oklch(0.995 0.004 145);
+  --popover-foreground: oklch(0.19 0.025 166);
+  --primary: oklch(0.85 0.19 115);
+  --primary-foreground: oklch(0.19 0.025 166);
+  --secondary: oklch(0.92 0.045 185);
+  --secondary-foreground: oklch(0.24 0.035 185);
+  --muted: oklch(0.945 0.013 150);
+  --muted-foreground: oklch(0.49 0.025 166);
+  --accent: oklch(0.91 0.11 45);
+  --accent-foreground: oklch(0.24 0.05 35);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.984 0.003 247.858);
-  --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.968 0.007 247.896);
-  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
-  --sidebar-border: oklch(0.929 0.013 255.508);
-  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --border: oklch(0.88 0.018 155);
+  --input: oklch(0.88 0.018 155);
+  --ring: oklch(0.64 0.11 150);
+  --chart-1: oklch(0.73 0.18 35);
+  --chart-2: oklch(0.68 0.13 175);
+  --chart-3: oklch(0.55 0.11 250);
+  --chart-4: oklch(0.83 0.19 115);
+  --chart-5: oklch(0.72 0.18 300);
+  --sidebar: oklch(0.96 0.016 150);
+  --sidebar-foreground: oklch(0.19 0.025 166);
+  --sidebar-primary: oklch(0.85 0.19 115);
+  --sidebar-primary-foreground: oklch(0.19 0.025 166);
+  --sidebar-accent: oklch(0.92 0.045 185);
+  --sidebar-accent-foreground: oklch(0.24 0.035 185);
+  --sidebar-border: oklch(0.88 0.018 155);
+  --sidebar-ring: oklch(0.64 0.11 150);
+  --hero-ink: oklch(0.14 0.02 165);
+  --hero-text: oklch(0.98 0.01 145);
+  --hero-soft: oklch(0.88 0.012 145);
+  --hero-index-muted: oklch(0.7 0.02 165);
+  --deal-kicker: oklch(0.43 0.12 155);
+  --deal-sale: oklch(0.45 0.14 145);
+  --deal-spark: oklch(0.66 0.19 40);
+  --deal-period: oklch(0.69 0.19 42);
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
-  --muted: oklch(0.279 0.041 260.031);
-  --muted-foreground: oklch(0.704 0.04 256.788);
-  --accent: oklch(0.279 0.041 260.031);
-  --accent-foreground: oklch(0.984 0.003 247.858);
+  --background: oklch(0.16 0.025 166);
+  --foreground: oklch(0.96 0.012 145);
+  --card: oklch(0.21 0.03 166);
+  --card-foreground: oklch(0.96 0.012 145);
+  --popover: oklch(0.21 0.03 166);
+  --popover-foreground: oklch(0.96 0.012 145);
+  --primary: oklch(0.85 0.19 115);
+  --primary-foreground: oklch(0.19 0.025 166);
+  --secondary: oklch(0.29 0.05 185);
+  --secondary-foreground: oklch(0.96 0.012 145);
+  --muted: oklch(0.24 0.035 166);
+  --muted-foreground: oklch(0.73 0.025 155);
+  --accent: oklch(0.36 0.1 40);
+  --accent-foreground: oklch(0.96 0.012 145);
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.551 0.027 264.364);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.208 0.042 265.755);
-  --sidebar-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.279 0.041 260.031);
-  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.551 0.027 264.364);
+  --border: oklch(0.35 0.035 166);
+  --input: oklch(0.35 0.035 166);
+  --ring: oklch(0.72 0.14 145);
+  --chart-1: oklch(0.78 0.17 35);
+  --chart-2: oklch(0.76 0.13 175);
+  --chart-3: oklch(0.72 0.12 250);
+  --chart-4: oklch(0.85 0.19 115);
+  --chart-5: oklch(0.78 0.16 300);
+  --sidebar: oklch(0.21 0.03 166);
+  --sidebar-foreground: oklch(0.96 0.012 145);
+  --sidebar-primary: oklch(0.85 0.19 115);
+  --sidebar-primary-foreground: oklch(0.19 0.025 166);
+  --sidebar-accent: oklch(0.29 0.05 185);
+  --sidebar-accent-foreground: oklch(0.96 0.012 145);
+  --sidebar-border: oklch(0.35 0.035 166);
+  --sidebar-ring: oklch(0.72 0.14 145);
+  --hero-ink: oklch(0.14 0.02 165);
+  --hero-text: oklch(0.98 0.01 145);
+  --hero-soft: oklch(0.88 0.012 145);
+  --hero-index-muted: oklch(0.7 0.02 165);
+  --deal-kicker: oklch(0.78 0.12 155);
+  --deal-sale: oklch(0.78 0.14 145);
+  --deal-spark: oklch(0.76 0.19 40);
+  --deal-period: oklch(0.76 0.19 42);
 }
 
 @layer base {
@@ -151,5 +169,549 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-body);
+  }
+}
+
+.site-header {
+  display: flex;
+  height: 76px;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: max(5vw, calc((100vw - 1180px) / 2));
+}
+.brand-mark,
+.header-link,
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--foreground);
+  font-size: 0.77rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+.brand-mark {
+  letter-spacing: 0.08em;
+}
+.brand-mark strong {
+  font-weight: 900;
+}
+.brand-icon {
+  display: grid;
+  width: 36px;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--primary);
+}
+.brand-icon svg {
+  width: 19px;
+}
+.header-link {
+  gap: 6px;
+}
+.header-link svg,
+.hero-link svg {
+  width: 16px;
+}
+.deal-hero {
+  position: relative;
+  display: flex;
+  min-height: clamp(345px, 38vw, 470px);
+  align-items: center;
+  overflow: hidden;
+  background: var(--hero-ink);
+  color: var(--hero-text);
+}
+.hero-art,
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-art {
+  object-fit: cover;
+  object-position: center 49%;
+}
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--hero-ink) 96%, transparent) 0%,
+    color-mix(in oklab, var(--hero-ink) 79%, transparent) 34%,
+    color-mix(in oklab, var(--hero-ink) 12%, transparent) 72%
+  );
+}
+.hero-copy {
+  position: relative;
+  z-index: 1;
+  width: min(1180px, 90%);
+  margin-inline: auto;
+  padding-block: 54px;
+}
+.eyebrow,
+.section-kicker,
+.stat-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+.eyebrow {
+  color: var(--primary);
+}
+.eyebrow svg {
+  width: 15px;
+}
+.hero-copy h1 {
+  margin: 24px 0 13px;
+  font-family: var(--font-heading);
+  font-size: clamp(2.8rem, 5.4vw, 5rem);
+  font-weight: 900;
+  line-height: 0.99;
+}
+.hero-copy h1 span {
+  color: var(--primary);
+}
+.hero-caption {
+  margin: 0;
+  color: var(--hero-soft);
+  font-size: 0.95rem;
+}
+.hero-link {
+  margin-top: 29px;
+  padding: 12px 15px;
+  border-radius: 3px;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease;
+}
+.hero-link:hover {
+  transform: translateY(-2px);
+}
+.hero-index {
+  position: absolute;
+  right: max(5vw, calc((100vw - 1180px) / 2));
+  bottom: 24px;
+  z-index: 1;
+  color: var(--hero-text);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+.hero-index span {
+  color: var(--hero-index-muted);
+}
+.deal-content {
+  width: min(1100px, 88%);
+  margin: 0 auto;
+  padding: 64px 0 68px;
+}
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section-kicker {
+  color: var(--deal-kicker);
+}
+.section-heading h2 {
+  margin: 9px 0 0;
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1;
+}
+.heading-period {
+  color: var(--deal-period);
+}
+.section-note {
+  margin: 0 0 2px;
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+  line-height: 1.65;
+  text-align: right;
+}
+.market-strip {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  margin-top: 32px;
+  padding: 18px 0;
+  border-block: 1px solid var(--border);
+}
+.market-stat {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  padding: 2px 22px;
+  border-right: 1px solid var(--border);
+}
+.market-stat:first-child {
+  padding-left: 0;
+}
+.market-stat:last-child {
+  border: 0;
+}
+.stat-label {
+  color: var(--muted-foreground);
+  font-size: 0.6rem;
+}
+.stat-value {
+  display: block;
+  overflow: hidden;
+  font-size: 1.34rem;
+  font-weight: 900;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stat-unit {
+  color: var(--muted-foreground);
+  font-size: 0.76rem;
+  font-weight: 500;
+}
+.market-aside {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted-foreground);
+  font-size: 0.74rem;
+}
+.stat-spark {
+  color: var(--deal-spark);
+  font-size: 1.45rem;
+}
+.list-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 25px 0 9px;
+}
+.search-box {
+  display: flex;
+  width: min(380px, 100%);
+  height: 42px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--card);
+  color: var(--muted-foreground);
+}
+.search-box > svg {
+  width: 17px;
+  flex: none;
+}
+.search-input {
+  height: 39px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 0.83rem;
+  box-shadow: none;
+}
+.search-input:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.sale-filter {
+  height: 42px;
+  gap: 9px;
+  border-radius: 3px;
+  font-size: 0.78rem;
+}
+.sale-filter > svg {
+  width: 15px;
+}
+.sale-filter.is-active {
+  border-color: var(--ring);
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+}
+.filter-count {
+  display: grid;
+  width: 21px;
+  height: 21px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  font-size: 0.68rem;
+}
+.deal-list {
+  border-top: 1px solid var(--border);
+}
+.deal-row {
+  display: grid;
+  min-height: 82px;
+  grid-template-columns: 52px minmax(0, 1fr) minmax(140px, 0.4fr) 24px;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 1px solid var(--border);
+  transition: background-color 140ms ease;
+}
+.deal-row:hover {
+  background: color-mix(in oklab, var(--secondary) 30%, transparent);
+}
+.game-number {
+  color: var(--muted-foreground);
+  font-size: 0.69rem;
+  font-variant-numeric: tabular-nums;
+}
+.game-name-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.game-name-line h3 {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 800;
+}
+.sale-tag {
+  display: inline-flex;
+  min-height: 21px;
+  align-items: center;
+  padding: 3px 7px;
+  border-radius: 2px;
+  background: var(--accent);
+  color: var(--accent-foreground);
+  font-size: 0.57rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+.game-store {
+  margin: 5px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.73rem;
+}
+.game-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.current-price {
+  font-size: 0.98rem;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+.old-price,
+.regular-note {
+  color: var(--muted-foreground);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+.old-price {
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in oklab, var(--muted-foreground) 65%, transparent);
+}
+.discount-note {
+  margin-left: 6px;
+  color: var(--deal-sale);
+  font-weight: 900;
+  text-decoration: none;
+}
+.row-arrow {
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  transition:
+    color 140ms ease,
+    transform 140ms ease;
+}
+.deal-row:hover .row-arrow {
+  color: var(--foreground);
+  transform: translate(2px, -2px);
+}
+.empty-state {
+  display: flex;
+  min-height: 205px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  color: var(--muted-foreground);
+  text-align: center;
+}
+.empty-state svg {
+  width: 22px;
+}
+.empty-state p {
+  margin: 0;
+  color: var(--foreground);
+  font-weight: 800;
+}
+.empty-state span {
+  font-size: 0.8rem;
+}
+.results-note {
+  margin: 13px 0 0;
+  color: var(--muted-foreground);
+  font-size: 0.7rem;
+  text-align: right;
+}
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px max(6vw, calc((100vw - 1100px) / 2));
+  border-top: 1px solid var(--border);
+  color: var(--muted-foreground);
+  font-size: 0.7rem;
+}
+.site-footer > span:first-child {
+  color: var(--foreground);
+  font-weight: 900;
+  letter-spacing: 0.07em;
+}
+.footer-dot {
+  margin-left: 4px;
+  color: var(--deal-spark);
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    height: 64px;
+    padding-inline: 5%;
+  }
+  .brand-mark {
+    gap: 8px;
+    font-size: 0.68rem;
+  }
+  .brand-icon {
+    width: 32px;
+  }
+  .header-link {
+    font-size: 0.71rem;
+  }
+  .deal-hero {
+    min-height: 370px;
+    align-items: end;
+  }
+  .hero-art {
+    object-position: 57% center;
+  }
+  .hero-shade {
+    background: linear-gradient(
+      0deg,
+      color-mix(in oklab, var(--hero-ink) 96%, transparent) 0%,
+      color-mix(in oklab, var(--hero-ink) 78%, transparent) 53%,
+      color-mix(in oklab, var(--hero-ink) 18%, transparent) 100%
+    );
+  }
+  .hero-copy {
+    width: 90%;
+    padding-block: 35px 45px;
+  }
+  .hero-copy h1 {
+    margin-top: 18px;
+    font-size: 3rem;
+  }
+  .hero-caption {
+    max-width: 290px;
+    font-size: 0.84rem;
+  }
+  .hero-index {
+    right: 5%;
+    bottom: 17px;
+  }
+  .deal-content {
+    width: 90%;
+    padding-block: 44px 48px;
+  }
+  .section-heading {
+    align-items: flex-start;
+  }
+  .section-heading h2 {
+    font-size: 2.1rem;
+  }
+  .section-note {
+    max-width: 145px;
+    font-size: 0.68rem;
+  }
+  .market-strip {
+    grid-template-columns: 1fr 1.5fr;
+    margin-top: 25px;
+    padding-block: 15px;
+  }
+  .market-stat {
+    padding-inline: 13px;
+  }
+  .market-stat:first-child {
+    padding-left: 0;
+  }
+  .market-aside {
+    display: none;
+  }
+  .stat-value {
+    font-size: 1.15rem;
+  }
+  .stat-unit {
+    font-size: 0.68rem;
+  }
+  .list-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 21px;
+  }
+  .search-box {
+    width: 100%;
+  }
+  .sale-filter {
+    align-self: flex-start;
+  }
+  .deal-row {
+    min-height: 78px;
+    grid-template-columns: 30px minmax(0, 1fr) auto;
+    gap: 10px;
+  }
+  .game-number {
+    font-size: 0.62rem;
+  }
+  .game-name-line {
+    gap: 7px;
+  }
+  .game-name-line h3 {
+    font-size: 0.87rem;
+  }
+  .sale-tag {
+    min-height: 19px;
+    font-size: 0.52rem;
+  }
+  .game-prices {
+    align-items: flex-end;
+  }
+  .current-price {
+    font-size: 0.92rem;
+  }
+  .old-price,
+  .regular-note {
+    font-size: 0.64rem;
+  }
+  .row-arrow {
+    display: none;
+  }
+  .site-footer {
+    padding-inline: 5%;
+    font-size: 0.63rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }

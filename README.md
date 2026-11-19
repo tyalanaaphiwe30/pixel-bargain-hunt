@@ -1,29 +1,30 @@
-# Welcome to your Lovable project
+# PC Game Deals
 
-This project was built with [Lovable](https://lovable.dev).
+A compact game-deals page featuring the eight Rand-priced games provided in the assignment. Search titles as you type, show sale-only results, and compare each current price with its normal price.
 
-## Build with Lovable
+## Setup
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Requirements: Node.js and npm.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
 
-## Built with
+Open the local address printed by the development server. Run the checks with `npm test`.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Choices and assumptions
+
+- The supplied eight-game list is the source of truth; no live API or changing prices are used.
+- A game is on sale only when its sale price is strictly lower than its normal price. Equal prices do not receive an “ON SALE” tag.
+- Discount percentages use the supplied prices and are rounded to the nearest whole percent. The lowest-price highlight compares sale prices.
+- Prices are shown in South African rand (ZAR); the brief's amounts are treated as rand.
+- Search matches game titles, ignores letter case, and updates as you type.
+
+## Project notes
+
+- **Implementation:** React and TypeScript with TanStack Start; deal calculations are small reusable functions, with Vitest checks for the requested behaviors.
+- **Resources used:** the supplied assignment brief, the existing project setup, and the included Vitest tooling.
+- **Obstacles:** no external service or account was needed. The provided game data is used directly so prices stay predictable.
+- **What I would do differently:** if the scope allowed real-time listings, I would add an API-backed source and show when each price was last checked.
+- **Time taken:** 2 hours and 40 minutes.
